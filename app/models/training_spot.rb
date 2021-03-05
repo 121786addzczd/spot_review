@@ -1,0 +1,2 @@
+class TrainingSpot < ApplicationRecord
+end
