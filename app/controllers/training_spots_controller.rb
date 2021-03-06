@@ -5,5 +5,6 @@ class TrainingSpotsController < ApplicationController
 
   def show
     @training_spot = TrainingSpot.find(params[:id])
+    @review = Review.new
   end
 end

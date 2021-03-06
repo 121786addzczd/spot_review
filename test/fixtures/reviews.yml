@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  training_spot: one
+  content: MyString
+  score: 1
+
+two:
+  user: two
+  training_spot: two
+  content: MyString
+  score: 1
