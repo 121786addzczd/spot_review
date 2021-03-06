@@ -23,7 +23,12 @@
               </div>
             </div>
             <footer class="card-footer">
-              
+              <%= link_to training_spot_reviews_path(training_spot), class: "button card-footer-item" do %>
+                レビューを見る
+              <% end %>
+              <%= link_to training_spot_path(training_spot), class: "button card-footer-item" do %>
+                レビューを書く
+              <% end %>
             </footer>
           </div>
         <% end %>
