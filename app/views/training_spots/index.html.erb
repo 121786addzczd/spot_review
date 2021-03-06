@@ -13,11 +13,11 @@
               <div class="content">
                 <div class="content average-score">
                   <div class="star-rating mb-2">
-                    <div class="star-rating-front" style="width: ">★★★★★</div>
+                    <div class="star-rating-front" style="width: <%= training_spot.review_score_percentage %>%">★★★★★</div>
                     <div class="star-rating-back">★★★★★</div>
                   </div>
                   <div class="average-score-display ml-3 pt-2">
-
+                    <%= training_spot.avg_score %>点（<%= training_spot.reviews.count %>件のレビュー）
                   </div>
                 </div>
               </div>
