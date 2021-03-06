@@ -1,4 +1,6 @@
 class ReviewsController < ApplicationController
+  before_action :authenticate_user!, only: [:create]
+
   def index
     @training_spot = TrainingSpot.find(params[:training_spot_id])
     @reviews = @training_spot.reviews
